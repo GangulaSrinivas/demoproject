@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input tags and forms in HTML</title>
+</head>
+<body>
+    <!-- Checkbox-->
+    <label>Select all technologies which u wanna explore: </label>
+    <input type="checkbox" name="technologyField" id="tech1" value="c" checked ><label for="tech1">c</label>
+    <input type="checkbox" name="technologyField" id="tech2" value="c++" ><label for="tech2">C++</label>
+    <input type="checkbox" name="technologyField" id="tech3" value="java" ><label for="tech3">java</label>
+    <input type="checkbox" name="technologyField" id="tech4" value="python" ><label for="tech4">py</label>
+    <br/>
+    <br/>
+    <!--radio button-->
+    <label >Gender:</label>
+    <input type="radio" name="gender" id="m" checked><label for="m">Men</label>
+    <input type="radio" name="gender" id="w"><label for="w">Women</label>
+    <input type="radio" name="gender" id="p"><label for="p">Nottosay</label>
+    <br/>
+    <br/>
+    <!--Dropdown-->
+    <label>Select Gender:</label>
+    <select name="gender">
+        <option value=""></option>
+        <option value="men">Men</option>
+        <option value="women">Women</option>
+        <option value="Nottosay">Prefer Not to say</option>
+    </select>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <!--hr:horizontal line-->
+    <hr/>
+    <br/>
+    <br/>
+    <form>
+        <label for="phNum">Phone Number:</label>
+        <input type="number" name="phonenumber" placeholder="please enter number" id="phNum" required value=""/>
+        <br/>
+        <br/>
+    
+        <label for="fname">FullName: </label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="fullname" placeholder="please enter full name" id="fname" required value="">
+        <br/>
+        <br/>
+        <label for="pwd" >Password:</label>
+        <input type="password" name="password" placeholder="pls enter pwd" id="pwd" required value="">
+        <br/>
+        <br/>
+        <label for="email">Email:</label>
+        <input type="email" name="email" placeholder="pls enter email" id="email" required value="">
+        <br/>
+        <br/>
+        <label for="cmts">Comments:</label>
+        <textarea name="comments" id="cmts" rows="12" cols="22" placeholder="pls enter comments here..."></textarea>
+        <br/>
+        <br/>
+        <label >Gender:</label>
+        <input type="radio" name="gender" id="m" checked><label for="m">Men</label>
+        <input type="radio" name="gender" id="w"><label for="w">Women</label>
+        <input type="radio" name="gender" id="p"><label for="p">Nottosay</label>
+        <br/>
+        <br/>
+        <label>Select all technologies which u wanna explore: </label>
+        <input type="checkbox" name="technologyField" id="tech1" value="c" checked ><label for="tech1">c</label>
+        <input type="checkbox" name="technologyField" id="tech2" value="c++" ><label for="tech2">C++</label>
+        <input type="checkbox" name="technologyField" id="tech3" value="java" ><label for="tech3">java</label>
+        <input type="checkbox" name="technologyField" id="tech4" value="python" ><label for="tech4">py</label>
+        <br/>
+        <br/>
+         <!--Dropdown-->
+        <label>Select Gender:</label>
+        <select name="gender">
+        <option value=""></option>
+        <option value="men">Men</option>
+        <option value="women">Women</option>
+        <option value="Nottosay">Prefer Not to say</option>
+        </select>
+        <br/>
+        <br/>
+        <button type="submit">Submit</button>
+        <br/>
+        <br/>
+        <button type="reset">Reset</button>
+    </form >
+
+
+</body>
+</html>
